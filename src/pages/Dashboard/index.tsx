@@ -30,7 +30,7 @@ const Dashboard: React.FC = () => {
       return JSON.parse(storagedRepositories);
     }
 
-    /** Se nao encontrar, retorna array vazio */
+    /** Se nao encontrar retorna array vazio */
     return [];
   });
   const [inputError, setInputError] = useState('');
